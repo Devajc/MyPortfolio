@@ -141,7 +141,7 @@
     content: "\1F4F7"; font-size: 2.2rem; display: block;
   }
   .photo-frame.empty::after {
-    content: attr(data-label); font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;
+    content: ""; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;
   }
   .frame-corner { position: absolute; width: 14px; height: 14px; border: 3px solid var(--orange); z-index: 4; }
   .fc-tl { top: -8px; left: -8px; border-right: none; border-bottom: none; }
@@ -497,7 +497,6 @@
           <circle class="draw" cx="55" cy="180" r="6" style="transition-delay:.3s"/>
         </svg>
         <img src="images/robotics-club.jpg" alt="Robotics Design Engineer" onerror="hideBrokenImg(this)">
-        <span class="art-tag">Add robotics-club.jpg</span>
       </div>
     </div>
     <div class="exp-body">
@@ -524,8 +523,7 @@
           <line class="draw" x1="110" y1="20" x2="110" y2="40" style="transition-delay:.4s"/>
           <path class="draw" d="M65,20 L75,20 M105,20 L115,20" style="transition-delay:.45s"/>
         </svg>
-        <img src="images/footbit.jpg" alt="R&D Engineer at FootBit" onerror="hideBrokenImg(this)">
-        <span class="art-tag">Add footbit.jpg</span>
+        <img src="footbit.jpg" alt="R&D Engineer at FootBit" onerror="hideBrokenImg(this)">
       </div>
     </div>
     <div class="exp-body">
@@ -563,8 +561,7 @@
           <line class="draw" x1="139" y1="155" x2="175" y2="120" style="transition-delay:.6s"/>
           <path class="draw" d="M155,140 A26,26 0 0,0 175,105" stroke="var(--orange)" style="transition-delay:.7s"/>
         </svg>
-        <img src="images/interlock.jpg" alt="Mechanical Engineer at Interlock Group" onerror="hideBrokenImg(this)">
-        <span class="art-tag">Add interlock.jpg</span>
+        <img src="interlock.jpg" alt="Mechanical Engineer at Interlock Group" onerror="hideBrokenImg(this)">
       </div>
     </div>
     <div class="exp-body">
@@ -591,7 +588,6 @@
           <path class="draw" d="M15,140 Q90,175 205,120" style="transition-delay:.55s"/>
         </svg>
         <img src="images/aeronautics.jpg" alt="Mechanical Systems Engineer at UMass Aeronautics" onerror="hideBrokenImg(this)">
-        <span class="art-tag">Add aeronautics.jpg</span>
       </div>
     </div>
     <div class="exp-body">
@@ -617,7 +613,6 @@
           <path class="draw" d="M70,140 L40,170 M110,125 L110,165 M150,140 L180,170" stroke="var(--orange)" style="transition-delay:.5s"/>
         </svg>
         <img src="images/hackumass.jpg" alt="Director at HackUMass" onerror="hideBrokenImg(this)">
-        <span class="art-tag">Add hackumass.jpg</span>
       </div>
     </div>
     <div class="exp-body">
@@ -670,9 +665,8 @@
         </ul>
         <div class="video-frame" id="videoArm">
           <video controls preload="metadata" playsinline onerror="handleVideoError(this)">
-            <source src="/MyPortfolio/Videos/robotic-arm-demo.mp4" type="video/mp4">
+            <source src="robotic-arm-demo.mp4" type="video/mp4">
           </video>
-          <span class="video-tag">Add robotic-arm-demo.mp4</span>
         </div>
       </div>
     </div>
@@ -698,9 +692,8 @@
         </ul>
         <div class="video-frame" id="videoUR5e">
           <video controls preload="metadata" playsinline onerror="handleVideoError(this)">
-            <source src="/MyPortfolio/Videos/ur5e-demo.mp4" type="video/mp4">
+            <source src="videos/ur5e-demo.mp4" type="video/mp4">
           </video>
-          <span class="video-tag">Add ur5e-demo.mp4</span>
         </div>
       </div>
     </div>
